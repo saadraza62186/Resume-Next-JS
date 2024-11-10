@@ -1,0 +1,110 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div id="parent1">
+            <div id="left">
+                <!-- Left Section Content -->
+                <div id="main">
+                    <div id="img">
+                        <img id="img1" src="/my-project/assets/saad.jpeg" alt="">
+                    </div>
+                    <div id="content">
+                        <h1>Saad Raza</h1>
+                        <p id="para">Frontend Developer</p>
+                    </div>
+                </div>
+                <div id="main2">
+                    <div id="contents">
+                        <!-- Contact Info Section -->
+                        <div class="content2">
+                            <p><i class="fa-regular fa-envelope"></i></p>
+                            <p>razasaad62186@gmail.com</p>
+                        </div>
+                        <div class="content2">
+                            <p><i class="fa-solid fa-phone"></i></p>
+                            <p>0315-0299595</p>
+                        </div>
+                        <div class="content2">
+                            <p><i class="fa-brands fa-github"></i></p>
+                            <p><a href="https://github.com/saadraza62186">saadraza62186</a></p>
+                        </div>
+                        <div class="content2">
+                            <p><i class="fa-brands fa-instagram"></i></p>
+                            <p>saad_patnii</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="right">
+                <!-- Career Profile Section -->
+                <div id="">
+                    <h1 id="heading"><i class="fa-solid fa-user"></i> PERSONAL INFORMATION</h1>
+                    <div id="info">
+                        <h4>Name: </h4>
+                        <p>Saad Raza</p>
+                    </div>
+                    <div id="info">
+                        <h4>Email: </h4>
+                        <p>razasaad62186@gmail.com</p>
+                    </div> 
+                    <div id="info">
+                        <h4>Phone: </h4>
+                        <p>+92 315 0299595</p>
+                    </div> 
+                    <div id="info">
+                        <h4>github:  </h4>
+                        <p>razasaad62186</p>
+                    </div>          
+                </div>
+                <div id="head">
+                    <h1 id="heading"><i class="fa-solid fa-user"></i> CAREER PROFILE</h1>
+                    <p id="p">I am a passionate and motivated frontend developer, currently learning backend development. I have strong experience in web and app development, with expertise in HTML, CSS, JavaScript, React, Firebase, and TypeScript. I am also expanding my skill set in Next.js and GenAI to develop more efficient and modern web applications. I am always eager to learn new technologies and strive to improve my skills, ensuring I work in line with industry standards.</p>
+                </div>
+                <div id="head">
+                    <h1 id="heading"><i class="fa-solid fa-school"></i> EDUCATION</h1>
+                    <div id="info">
+                        <h4>Matriculation: </h4>
+                        <p>Arqam Public School Karachi</p>
+                    </div>
+                    <div id="info">
+                        <h4>Intermediate: </h4>
+                        <p>S.M Science College Karachi</p>
+                    </div> 
+                </div>
+                <div id="head">
+                    <h1 id="heading"><i class="fa-solid fa-briefcase"></i>WORK EXPERIENCE</h1>
+                    <div id="info">
+                        <h4>Shop: </h4>
+                        <p>A Wahid Prize Bond</p>
+                    </div>
+                    <div id="info">
+                        <h4>Role: </h4>
+                        <p>SalesMan</p>
+                    </div> 
+                </div>
+                <div id="head">
+                    <h1 id="heading"><i class="fa-solid fa-user"></i>SKILLS</h1>
+                    <ul id="info1" style="display: none;"> <!-- Initially hidden -->
+                        <p>Ms Office </p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>TypeScript</p>
+                        <p>React JS</p>
+                        <p>Next JS</p>
+                    </ul>
+                </div>
+                <button id="btn" onclick="toggleSkills()">Show Skill</button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+    </html>
